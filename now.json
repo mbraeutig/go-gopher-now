@@ -8,7 +8,7 @@
         {"src": "/api/healthz", "dest": "api/health.go"},
     ],
     "functions": {
-        "api/index.go": {
+        "api/gopher.go": {
           "includeFiles": "gophercolor.png"
         }
       }
