@@ -5,8 +5,7 @@
     "routes": [
         {"src": "/api/", "dest": "api/index.go" },
         {"src": "/api/index", "dest": "api/index.go" },
-        {"src": "/api/gopher", "dest": "api/gopher.go"},
-        {"src": "/api/healthz", "dest": "api/health.go"},
+        {"src": "/api/gopher", "dest": "api/gopher.go"}
     ],
     "functions": {
         "api/gopher.go": {
