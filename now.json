@@ -2,11 +2,6 @@
 {
     "name": "go-gopher",
     "version": 2,
-    "routes": [
-        {"src": "/api/", "dest": "api/index.go" },
-        {"src": "/api/index", "dest": "api/index.go" },
-        {"src": "/api/gopher", "dest": "api/gopher.go"}
-    ],
     "functions": {
         "api/gopher.go": {
           "includeFiles": "gophercolor.png"
