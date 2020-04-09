@@ -10,7 +10,7 @@ import (
 // Gopher prints a gopher.
 func Gopher(w http.ResponseWriter, r *http.Request) {
 	// Read the gopher image file.
-	f, err := os.Open("./public/gophercolor.png")
+	f, err := os.Open("gophercolor.png")
 	if err != nil {
 		http.Error(w, fmt.Sprintf("Error reading file: %v", err), http.StatusInternalServerError)
 		return
