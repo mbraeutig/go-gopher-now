@@ -13,5 +13,10 @@
       { "src": "/index", "dest": "api/index.go" },
       { "src": "/health", "dest": "api/health.go" },
       { "src": "/gopher", "dest": "api/gopher.go" }
-    ]
+    ],
+    "functions": {
+      "api/gopher.go": {
+        "includeFiles": "public/**"
+      }
+    }
 }
