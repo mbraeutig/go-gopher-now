@@ -9,8 +9,7 @@
       { "src": "api/gopher.go", "use": "@now/go" }
     ],
     "routes": [
-      { "src": "/api/(.*)", "dest": "api/index.go" },
-      { "src": "/", "dest": "api/index.go" },
+      { "src": "/", "dest": "public/index.html" },
       { "src": "/index", "dest": "api/index.go" },
       { "src": "/health", "dest": "api/health.go" },
       { "src": "/gopher", "dest": "api/gopher.go" }
