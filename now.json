@@ -16,7 +16,7 @@
     ],
     "functions": {
       "api/gopher.go": {
-        "includeFiles": "public/**"
+        "includeFiles": "public/gophercolor.png"
       }
     }
 }
