@@ -2,9 +2,7 @@
 {
     "name": "go-gopher",
     "version": 2,
-    "functions": {
-        "api/gopher.go": {
-          "includeFiles": "gophercolor.png"
-        }
-      }
-}
+    "builds": [
+      { "src": "public/**/*", "use": "@now/static" }
+    ]
+  }
