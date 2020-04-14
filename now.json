@@ -3,6 +3,9 @@
     "name": "go-gopher",
     "version": 2,
     "builds": [
-      { "src": "public/**/*", "use": "@now/static" }
+      { "src": "public/**/*", "use": "@now/static" },
+      { "src": "api/index.go", "use": "@now/go" },
+      { "src": "api/health.go", "use": "@now/go" },
+      { "src": "api/gopher.go", "use": "@now/go" }
     ]
   }
