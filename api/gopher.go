@@ -12,7 +12,7 @@ import (
 var gopher []byte
 
 func init() {
-	if err := readFile("./public/gophercolor.png", &gopher); err != nil {
+	if err := readFile("/public/gophercolor.png", &gopher); err != nil {
 		log.Fatal(err)
 	}
 }
