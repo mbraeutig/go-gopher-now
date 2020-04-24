@@ -7,10 +7,14 @@ import (
 
 const index = "" +
 	`
-<html>
-    <h1>Testing now.sh/zeit.co</h1>
-</html>
-`
+	<head>
+	<html>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+		<h1>Want to see a gopher, try this!</h1>
+		<h1><a href="gopher">Gopher</a></h1>
+	</html>
+	</head>
+	`
 
 // Index - write the index
 func Index(w http.ResponseWriter, r *http.Request) {
